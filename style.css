@@ -1,0 +1,81 @@
+h1 {
+  margin-top: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 96px ;
+}
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  background-image: url(image/bg.png);
+}
+
+#buttons ul i {
+  opacity: 0.4;
+  transition: 0.4s;
+}
+
+
+#buttons ul i:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+ul {
+	margin-top: 40px;
+  padding-left: 0px;
+  margin-bottom: 0;
+  cursor: default;
+}
+
+#back {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: 1s;
+  opacity: .25;
+  background-size: 100%;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+.project {
+  height: 7em;
+  width: 18em;
+  border: #888 solid 1px;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #fff;
+  display: inline-block;
+  vertical-align: top;
+
+  box-shadow: -1px -1px 1px rgba(255,255,255,0.2), /* наверх и влево */
+  1px 1px 1px rgba(255,255,255,0.2), /* вниз и вправо */
+  1px 1px 1px rgba(0,0,0,0.7); /* тёмная тень */
+  transition: 0.1s;
+}
+
+.project:hover {
+  background-color: #eee;
+}
+
+.projectName {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.projectDescription {
+  bottom: 0;
+}

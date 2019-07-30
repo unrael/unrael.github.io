@@ -1,10 +1,7 @@
 h1 {
   margin-top: 0;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 96px ;
-}
-h2 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 96px;
 }
 
 body {
@@ -16,6 +13,9 @@ body {
   transition: 0.4s;
 }
 
+#about {  
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
 #buttons ul i:hover {
   opacity: 1;
@@ -50,32 +50,4 @@ body, html {
 
 a {
   text-decoration: none;
-}
-
-.project {
-  height: 7em;
-  width: 18em;
-  border: #888 solid 1px;
-  font-family: 'Source Sans Pro', sans-serif;
-  background-color: #fff;
-  display: inline-block;
-  vertical-align: top;
-
-  box-shadow: -1px -1px 1px rgba(255,255,255,0.2), /* наверх и влево */
-  1px 1px 1px rgba(255,255,255,0.2), /* вниз и вправо */
-  1px 1px 1px rgba(0,0,0,0.7); /* тёмная тень */
-  transition: 0.1s;
-}
-
-.project:hover {
-  background-color: #eee;
-}
-
-.projectName {
-  font-size: 2em;
-  font-weight: 600;
-}
-
-.projectDescription {
-  bottom: 0;
 }

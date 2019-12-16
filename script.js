@@ -1,6 +1,4 @@
-var birthDateStr = '19960111',
-parts = birthDateStr.match(/(\d{4})(\d{2})(\d{2})/),
-dateObj = new Date(parts[1], parts[2]-1, parts[3]);
+dateObj = new Date(821304000000);
 
 function getAge(birthDate) {
   var now = new Date();
